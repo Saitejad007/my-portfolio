@@ -13,8 +13,8 @@ const projectsList = [
       "https://res.cloudinary.com/dzdh52ops/image/upload/v1664098978/Portfolio%20resources/portfolio_snip_zflxr1.png",
     description:
       "Nxt Watch application is a clone for YouTube where users can log in and can see a list of videos like Trending, Gaming, Saved videos, and also an search videos and view specific video details, and users can toggle the theme (Light/Dark).",
-    githubLink: "https://github.com/Saitejad007",
-    websiteUrl: "",
+    githubLink: "https://github.com/Saitejad007/my-portfolio.git",
+    websiteUrl: "https://saiteja7-portfolio.netlify.app",
   },
   {
     id: uuidv4(),

@@ -71,7 +71,7 @@ const About = () => {
             variants={scrollMotionAnime}
             initial="hidden"
             animate={control}
-            href="https://drive.google.com/uc?export=download&id=1AU22Z8decNgwtnSBeTATvI3OeGB90eR4"
+            href="https://drive.google.com/file/d/1lheUQ0C1F9bcdo673c9EdxeBILbTfLC3/view?usp=sharing"
             download
             target="_blank"
             // whileHover={{ scale: 1.1 }}
