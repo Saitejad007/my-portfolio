@@ -176,6 +176,10 @@ export const GmailButton = styled(ButtonIcon)`
     background: #ea4335;
     box-shadow: 0px 7px 2px -3px rgba(234, 67, 53, 0.76);
   }
+  @media screen and (max-width: 768px) {
+    padding: 0.4rem 0rem;
+    width: auto;
+  }
 `;
 
 export const GithubButton = styled(ButtonIcon)`
@@ -184,6 +188,10 @@ export const GithubButton = styled(ButtonIcon)`
     background: #fff;
     color: #000;
     box-shadow: 0px 6px 2px -3px rgba(255, 255, 255, 0.76);
+  }
+  @media screen and (max-width: 768px) {
+    padding: 0.4rem 0rem;
+    width: auto;
   }
 `;
 
