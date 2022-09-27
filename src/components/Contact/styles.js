@@ -10,6 +10,7 @@ export const Container = styled.div`
   color: #ffffff;
   @media screen and (max-width: 768px) {
     height: auto;
+    width: auto;
     padding: 3rem 0;
   }
 `;
@@ -24,6 +25,7 @@ export const ResponsiveContainer = styled.div`
   color: #ffffff;
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    width: 90%;
   }
 `;
 
@@ -35,6 +37,18 @@ export const Form = styled.form`
   width: 80%;
   max-width: 500px;
   max-height: 500px;
+  @media screen and (max-width: 768px) {
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 80rem) {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+  }
 `;
 
 export const Title = styled.h1`
@@ -46,7 +60,7 @@ export const Title = styled.h1`
   padding-bottom: 0;
   margin-bottom: 0;
   @media screen and (max-width: 768px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 
@@ -79,21 +93,32 @@ export const ImageContainer = styled(Container)`
   width: 80%;
   max-width: 500px;
   flex-direction: column;
-`;
+  @media screen and (max-width: 768px) {
+    width: 80%;
+    max-width: 280px;
+    max-height: 280px;
+    margin: 0;
 
-export const Image = styled.img`
-  width: 100%;
-`;
-
-export const Animator = styled.iframe`
-  // width: 900px;
-  // max-width: 100%;
-  // height: 80%;
+    iframe {
+      max-width: 280px;
+      max-height: 280px;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 80rem) {
+    width: 80%;
+    margin: 0;
+    max-width: 350px;
+    max-height: 350px;
+    iframe {
+      max-width: 350px;
+      max-height: 350px;
+    }
+  }
 `;
 
 export const IconContainer = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 10px 0;
 `;
 
@@ -106,6 +131,12 @@ export const ButtonIcon = styled.a`
   cursor: pointer;
   padding: 0.6rem 1.25rem;
   transition: 0.5s;
+  @media screen and (min-width: 768px) and (max-width: 80rem) {
+    padding-left: 0.2rem;
+    padding-right: 1.4rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
   @media screen and (max-width: 768px) {
     padding: 0.4rem 0rem;
     width: auto;
@@ -116,8 +147,9 @@ export const ButtonIcon = styled.a`
     align-items: center;
     transition: 0.4s;
     @media screen and (max-width: 768px) {
-      padding: 0.4rem 0.8rem;
+      padding: 8px;
       font-size: 0.75rem;
+      margin-left: 8px;
     }
   }
   &:hover {
@@ -139,6 +171,7 @@ export const ButtonIcon = styled.a`
 `;
 
 export const GmailButton = styled(ButtonIcon)`
+  padding: 0.6rem 1.25rem;
   &:hover {
     background: #ea4335;
     box-shadow: 0px 7px 2px -3px rgba(234, 67, 53, 0.76);
@@ -146,9 +179,16 @@ export const GmailButton = styled(ButtonIcon)`
 `;
 
 export const GithubButton = styled(ButtonIcon)`
+  padding: 0.6rem 1.25rem;
   &:hover {
     background: #fff;
     color: #000;
     box-shadow: 0px 6px 2px -3px rgba(255, 255, 255, 0.76);
+  }
+`;
+
+export const Socials = styled.span`
+  @media screen and (max-width: 768px) {
+    display: none !important;
   }
 `;

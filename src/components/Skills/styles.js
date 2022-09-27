@@ -27,7 +27,10 @@ export const Text = styled.p`
   font-weight: 400;
   @media screen and (max-width: 80rem) and (min-width: 48rem) {
     font-size: 0.75rem;
-  } ;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 0.75rem;
+  }
 `;
 
 export const SkillCard = styled.div`
@@ -52,7 +55,13 @@ export const SkillCard = styled.div`
 export const Image = styled.img`
   @media screen and (max-width: 80rem) and (min-width: 48rem) {
     width: 3rem;
-  } ;
+    height: 3rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 42px;
+    height: 42px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -65,6 +74,6 @@ export const Title = styled.h1`
   margin-bottom: 0;
   text-align: center;
   @media screen and (max-width: 768px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;

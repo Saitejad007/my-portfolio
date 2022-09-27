@@ -217,4 +217,10 @@ export const Title = styled.h1`
     width: 100%;
     transition: 800ms ease all;
   }
+  @media all and (max-width: 768px) {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
 `;

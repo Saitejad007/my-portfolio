@@ -15,7 +15,6 @@ export const Container = styled.div`
   align-items: center;
   height: 100vh;
   background: url("https://res.cloudinary.com/dzdh52ops/image/upload/v1663565958/Portfolio%20resources/bg_eikqkz.jpg");
-  // background: #150126;
   background-size: cover;
   color: #eeeeee;
 `;
@@ -23,15 +22,15 @@ export const Container = styled.div`
 export const Name = styled.h1`
   font-size: 3rem;
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 400;
   color: #fff;
   @media screen and (max-width: 768px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;
 
 export const Scroller = styled(Name)`
-  padding-right: 1rem;
+  padding-right: 0.4rem;
 `;
 
 export const SapnElement = styled.span`
@@ -39,7 +38,7 @@ export const SapnElement = styled.span`
   font-weight: 700;
   color: #00dfc4;
   @media screen and (max-width: 768px) {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 `;
 
@@ -47,14 +46,16 @@ export const TypeEffectCOntainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  // animation: ${MoveInTransition} 1s ease-in;
 `;
 
 export const NameContainer = styled.div`
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  // animation: ${MoveInTransition} 1s ease-in;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const Button = styled.a`

@@ -10,7 +10,6 @@ export const FooterContainer = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  // width: 70%;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -22,4 +21,8 @@ export const Text = styled.p`
   font-size: 0.9rem;
   padding-bottom: 6px;
   letter-spacing: 1px;
+  @media screen and (max-width: 768px) {
+    font-size: 0.75rem;
+    text-align: center;
+  }
 `;

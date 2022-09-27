@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: center;
   height: auto;
   padding: 3rem 0;
-  background: #eeeeee;
+  background: #edf2f8;
   @media screen and (max-width: 48rem) {
     height: auto;
   } ;
@@ -69,7 +69,10 @@ export const Title = styled.p`
   font-weight: 500;
   @media screen and (max-width: 80rem) and (min-width: 48rem) {
     font-size: 1rem;
-  } ;
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 1rem;
+  }
 `;
 
 export const ProjectDetails = styled.div`
@@ -88,13 +91,21 @@ export const PrimaryButton = styled.a`
   background: #ffffff;
   text-transform: uppercase;
   font-family: "Roboto";
-  font-size: 1rem;
   border: 1px solid #171717;
   text-decoration: none;
   color: #000;
   font-weight: 500;
   padding: 0.8rem 1.5rem;
   transition: all 0.4s ease-in-out;
+  @media screen and (max-width: 768px) {
+    padding: 0.6rem 0.8rem;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  @media screen and (max-width: 80rem) and (min-width: 48rem) {
+    padding: 0.6rem 0.8rem;
+    font-size: 14px;
+  }
   &:hover {
     color: #ffffff;
     background: #171717;
@@ -104,7 +115,6 @@ export const PrimaryButton = styled.a`
     box-shadow: -7px -7px 20px 0px #fff9, -4px -4px 5px 0px #fff9,
       7px 7px 20px 0px #0002, 4px 4px 5px 0px #0001;
     font-weight: 500;
-    // font-weight: 400;
   }
 `;
 
@@ -132,6 +142,6 @@ export const MainTitle = styled.h1`
   margin-bottom: 0;
   text-align: center;
   @media screen and (max-width: 768px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;

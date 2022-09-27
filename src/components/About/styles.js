@@ -13,7 +13,7 @@ export const AboutContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: #eeeeee;
+  background: #edf2f8;
   height: 100vh;
   animation: ${MoveInTransition} 1s fade-out;
   @media screen and (max-width: 48rem) {
@@ -116,7 +116,7 @@ border-radius: 7rem;
 margin: 1rem;`;
 
 export const TextContainer = styled.div`
-  width: 70%;
+  width: 80%;
 `;
 
 export const AvatarContainer = styled.div`
@@ -137,6 +137,6 @@ export const Title = styled.h1`
   margin-bottom: 0;
   text-align: center;
   @media screen and (max-width: 768px) {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 `;

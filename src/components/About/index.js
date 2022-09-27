@@ -9,7 +9,6 @@ import {
   Span,
   Title,
 } from "./styles";
-// import { Typography } from "@mui/material";
 import FileDownloadIcon from "@mui/icons-material/FileDownload";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -74,8 +73,6 @@ const About = () => {
             href="https://drive.google.com/file/d/1lheUQ0C1F9bcdo673c9EdxeBILbTfLC3/view?usp=sharing"
             download
             target="_blank"
-            // whileHover={{ scale: 1.1 }}
-            // whileTap={{ scale: 0.9 }}
           >
             <Span>
               Download CV
@@ -95,11 +92,11 @@ const About = () => {
             initial="hidden"
             animate={control}
           >
-            Hey I'm Sai Teja . I am a frontend web developer with 2.8 years '
-            experience in the industry . I am capable of writing efficient code
+            Hey, I'm Sai Teja. I am a frontend web developer with 2.8 years
+            experience in the industry. I am capable of writing efficient code
             and building performant websites using web technologies such as
-            ReactJs , CSS , and Bootstrap , and also backend technologies such
-            as NodeJS , Express , and MySql .
+            ReactJs, CSS and Bootstrap, and also backend technologies NodeJS,
+            Express and MySql .
           </ByteText>
           <ByteText
             as={motion.p}
@@ -108,19 +105,11 @@ const About = () => {
             initial="hidden"
             animate={control}
           >
-            I am passionate about building user - friendly websites ,
-            applications , and modern web applications .
-          </ByteText>
-          <ByteText
-            as={motion.p}
-            ref={ref}
-            variants={scrollMotionAnime}
-            initial="hidden"
-            animate={control}
-          >
-            I actively seek out new technologies and stay up - to - date on
-            industry trends and advancements . My passion for my work greatly
-            assists me in learning quickly and delivering exceptional work .
+            I am passionate about building user - friendly websites,
+            applications and modern web applications.I actively seek out new
+            technologies and stay up - to - date on industry trends and
+            advancements. My passion for my work greatly assists me in learning
+            quickly and delivering exceptional work.
           </ByteText>
         </TextContainer>
       </Card>

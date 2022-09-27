@@ -73,7 +73,15 @@ const Home = () => {
           }}
         />
       </TypeEffectCOntainer>
-      <Button href="https://linkedin.com/in/saiteja-devineni" target="_blank">
+      <Button
+        as={motion.a}
+        ref={ref}
+        variants={scrollMotionAnime}
+        initial="hidden"
+        animate={control}
+        href="https://linkedin.com/in/saiteja-devineni"
+        target="_blank"
+      >
         Hire me
       </Button>
     </Container>

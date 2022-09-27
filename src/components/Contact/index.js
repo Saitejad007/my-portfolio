@@ -1,4 +1,3 @@
-// import { Input, TextField, Typography } from "@mui/material";
 import {
   Button,
   Container,
@@ -10,6 +9,7 @@ import {
   ButtonIcon,
   GithubButton,
   GmailButton,
+  Socials,
 } from "./styles";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
@@ -98,15 +98,15 @@ const Contact = () => {
               target="_blank"
             >
               <span>
-                <LinkedInIcon sx={{ marginRight: "0.5rem" }} />
-                LinkedIn
+                <LinkedInIcon sx={{ marginRight: "0.3rem" }} />
+                <Socials>LinkedIn</Socials>
               </span>
             </ButtonIcon>
 
             <GithubButton href="https://github.com/Saitejad007" target="_blank">
               <span>
-                <GitHubIcon sx={{ marginRight: "0.5rem" }} />
-                GitHub
+                <GitHubIcon sx={{ marginRight: "0.3rem" }} />
+                <Socials>GitHub</Socials>
               </span>
             </GithubButton>
             {/* https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=saitejadevineni@gmail.com */}
@@ -116,8 +116,8 @@ const Contact = () => {
               rel="noopener noreferrer"
             >
               <span>
-                <MailIcon sx={{ marginRight: "0.5rem" }} />
-                Gmail
+                <MailIcon sx={{ marginRight: "0.3rem" }} />
+                <Socials>Gmail</Socials>
               </span>
             </GmailButton>
           </IconContainer>

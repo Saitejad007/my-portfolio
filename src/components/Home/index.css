@@ -3,9 +3,6 @@
   font-size: 4rem;
   font-weight: 700;
   color: #00dfc4;
-  @media screen and (max-width: 768px) {
-    font-size: 2rem;
-  }
 }
 
 #target {
@@ -19,11 +16,11 @@
 @media screen and (max-width: 768px) {
   .Typewriter__wrapper,
   .Typewriter__cursor {
-    font-size: 2.5rem;
-    padding-left: 0.6rem;
+    font-size: 1.5rem;
+    padding-left: 0.3rem;
   }
   #target {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
