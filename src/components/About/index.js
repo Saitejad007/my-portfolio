@@ -75,7 +75,7 @@ const About = () => {
             target="_blank"
           >
             <Span>
-              Download CV
+              Download Resume
               <FileDownloadIcon
                 sx={{
                   fontSize: "1.1rem",
@@ -95,8 +95,8 @@ const About = () => {
             Hey, I'm Sai Teja. I am a frontend web developer with 2.8 years
             experience in the industry. I am capable of writing efficient code
             and building performant websites using web technologies such as
-            ReactJs, CSS and Bootstrap, and also backend technologies NodeJS,
-            Express and MySql .
+            ReactJs, CSS and Bootstrap and also comfortable working with backend
+            technologies NodeJS, Express and MySql.
           </ByteText>
           <ByteText
             as={motion.p}
@@ -106,8 +106,8 @@ const About = () => {
             animate={control}
           >
             I am passionate about building user - friendly websites,
-            applications and modern web applications.I actively seek out new
-            technologies and stay up - to - date on industry trends and
+            applications and modern web applications. I actively seek out new
+            technologies and stay up-to-date on industry trends and
             advancements. My passion for my work greatly assists me in learning
             quickly and delivering exceptional work.
           </ByteText>

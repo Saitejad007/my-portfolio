@@ -40,6 +40,7 @@ export const Button = styled.a`
   position: relative;
   display: inline-block;
   color: #fff;
+  transition: 800ms ease all;
  
   &:hover {
     color: #000;
@@ -66,6 +67,7 @@ export const Button = styled.a`
     top: inherit;
     left: 0;
     bottom: 0;
+    transition: 800ms ease all;
   }
   &:hover:before {
     width: 100%;

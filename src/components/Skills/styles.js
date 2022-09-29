@@ -33,7 +33,9 @@ export const Text = styled.p`
   }
 `;
 
-export const SkillCard = styled.div`
+export const SkillCard = styled.a`
+  text-decoration: none;
+  color: #ffffff;
   display: flex;
   flex-direction: column;
   justify-content: center;
