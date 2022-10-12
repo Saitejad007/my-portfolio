@@ -8,6 +8,16 @@ import { useEffect } from "react";
 const projectsList = [
   {
     id: uuidv4(),
+    name: "React Weather Station",
+    previewUrl:
+      "https://res.cloudinary.com/dzdh52ops/image/upload/v1665575202/Portfolio%20resources/react-weather-station-preview_kbxam9.png",
+    description:
+      "Nxt Watch application is a clone for YouTube where users can log in and can see a list of videos like Trending, Gaming, Saved videos, and also an search videos and view specific video details, and users can toggle the theme (Light/Dark).",
+    githubLink: "https://github.com/Saitejad007/React-Weather-Application",
+    websiteUrl: "https://react-weather-station.netlify.app",
+  },
+  {
+    id: uuidv4(),
     name: "My Portfolio",
     previewUrl:
       "https://res.cloudinary.com/dzdh52ops/image/upload/v1664098978/Portfolio%20resources/portfolio_snip_zflxr1.png",
@@ -18,16 +28,6 @@ const projectsList = [
   },
   {
     id: uuidv4(),
-    name: "NxtWatch App",
-    previewUrl:
-      "https://res.cloudinary.com/dzdh52ops/image/upload/v1663340262/Portfolio%20resources/NxtWatch_qsduyh.png",
-    description:
-      "Nxt Watch application is a clone for YouTube where users can log in and can see a list of videos like Trending, Gaming, Saved videos, and also an search videos and view specific video details, and users can toggle the theme (Light/Dark).",
-    githubLink: "https://github.com/Saitejad007/nxt-watch-app.git",
-    websiteUrl: "https://nxtwatchapp41.ccbp.tech",
-  },
-  {
-    id: uuidv4(),
     name: "NxtTrendz - Ecommerce App",
     previewUrl:
       "https://res.cloudinary.com/dzdh52ops/image/upload/v1663340261/Portfolio%20resources/NxtTrendz_fjlnol.png",
@@ -35,6 +35,16 @@ const projectsList = [
       "Nxt Trendz application is a clone for ECommerce applications like Amazon, Flipkart where users can login and can see list of products with search, filters, sort by, etc..",
     githubLink: "https://github.com/Saitejad007",
     websiteUrl: "https://nxttrendzapp41.ccbp.tech",
+  },
+  {
+    id: uuidv4(),
+    name: "NxtWatch App",
+    previewUrl:
+      "https://res.cloudinary.com/dzdh52ops/image/upload/v1663340262/Portfolio%20resources/NxtWatch_qsduyh.png",
+    description:
+      "Nxt Watch application is a clone for YouTube where users can log in and can see a list of videos like Trending, Gaming, Saved videos, and also an search videos and view specific video details, and users can toggle the theme (Light/Dark).",
+    githubLink: "https://github.com/Saitejad007/nxt-watch-app.git",
+    websiteUrl: "https://nxtwatchapp41.ccbp.tech",
   },
   {
     id: uuidv4(),
