@@ -4,12 +4,13 @@ import { v4 as uuidv4 } from "uuid";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import '../../assets/images/Chatify.png'
 
 const projectsList = [
   {
     id: uuidv4(),
     name: "Chatify",
-    previewUrl: 'src/assets/images/Chatify.png',//"../../../assets/images/Chatify.png",
+    previewUrl: 'https://res.cloudinary.com/dzdh52ops/image/upload/v1668265269/Portfolio%20resources/Chatify_rsxsjb.png',
     description: 'Chatify is a realtime chat application for ease of communication.',
     githubLink: "https://github.com/Saitejad007/Chatify-client.git",
     websiteUrl: "https://chatify-client.onrender.com",
