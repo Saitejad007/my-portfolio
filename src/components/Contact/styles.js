@@ -154,6 +154,7 @@ export const ButtonIcon = styled.a`
   }
   &:hover {
     background: #0a66c2;
+    border-color: #0a66c2;
     transition: 0.5s;
     padding: 0.5rem 1.25rem;
     box-shadow: 0px 7px 2px -3px rgba(10, 102, 194, 0.76);
@@ -173,6 +174,7 @@ export const ButtonIcon = styled.a`
 export const GmailButton = styled(ButtonIcon)`
   padding: 0.6rem 1.25rem;
   &:hover {
+    border-color: #ea4335;
     background: #ea4335;
     box-shadow: 0px 7px 2px -3px rgba(234, 67, 53, 0.76);
   }
@@ -185,6 +187,7 @@ export const GmailButton = styled(ButtonIcon)`
 export const GithubButton = styled(ButtonIcon)`
   padding: 0.6rem 1.25rem;
   &:hover {
+    border-color: #fff;
     background: #fff;
     color: #000;
     box-shadow: 0px 6px 2px -3px rgba(255, 255, 255, 0.76);

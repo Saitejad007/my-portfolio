@@ -22,7 +22,7 @@ class NavMenu extends Component {
   }
 
   changeBg = () => {
-    console.log(window.scrollY);
+    // console.log(window.scrollY);
     if (window.scrollY > 250) {
       this.setState({ scrollstatus: true });
     } else {

@@ -4,7 +4,6 @@ import { v4 as uuidv4 } from "uuid";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-import '../../assets/images/Chatify.png'
 
 const projectsList = [
   {
