@@ -6,14 +6,14 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 const projectsList = [
-  {
-    id: uuidv4(),
-    name: "Chatify",
-    previewUrl: 'https://res.cloudinary.com/dzdh52ops/image/upload/v1668265269/Portfolio%20resources/Chatify_rsxsjb.png',
-    description: 'Chatify is a realtime chat application for ease of communication.',
-    githubLink: "https://github.com/Saitejad007/Chatify-client.git",
-    websiteUrl: "https://chatify-client.onrender.com",
-  },
+  // {
+  //   id: uuidv4(),
+  //   name: "Chatify",
+  //   previewUrl: 'https://res.cloudinary.com/dzdh52ops/image/upload/v1668265269/Portfolio%20resources/Chatify_rsxsjb.png',
+  //   description: 'Chatify is a realtime chat application for ease of communication.',
+  //   githubLink: "https://github.com/Saitejad007/Chatify-client.git",
+  //   websiteUrl: "https://chatify-client.onrender.com",
+  // },
   {
     id: uuidv4(),
     name: "React Weather Station",
