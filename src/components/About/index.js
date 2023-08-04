@@ -32,9 +32,9 @@ const About = () => {
 
       y: 0,
       transition: {
-        type: "spring",
+        // type: "spring",
         ease: "easeInOut",
-        duration: 0.6,
+        duration: 0.5,
         // mass: 2,
         // stiffness: 100,
       },
@@ -70,7 +70,7 @@ const About = () => {
             variants={scrollMotionAnime}
             initial="hidden"
             animate={control}
-            href="https://drive.google.com/file/d/19H-6KJU5ZBn-XoiEImr71etlzMtQiId0/view?usp=sharing"
+            href="https://drive.google.com/file/d/1lPWM8IdtrGGCVvBH4FQ9SpuMtO7fu6rP/view?usp=sharing"
             download
             target="_blank"
           >
